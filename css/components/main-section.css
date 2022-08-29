@@ -24,3 +24,12 @@
 .main-section.-bdblack {
     border-color: #000;
 }
+
+.main-section.-form {
+    background-color: #3A4042;
+    border: none;
+    overflow: hidden;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+}
