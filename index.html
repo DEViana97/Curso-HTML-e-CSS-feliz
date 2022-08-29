@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carrosel.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
+    <link rel="stylesheet" href="css/components/main-label.css">
 
 </head>
 <body>
@@ -203,8 +204,21 @@
 
          </section>
 
-         <script src="js/components/main-carrosel.js"></script>
+         
 
+    <form>
+        <label class="main-label" for="name">Nome</label>
+        <input type="text" id="name">
+
+        <label class="main-label" for="email">Email</label>
+        <input type="email" name="" id="email">
+
+        <label class="main-label" for="message">Mensagem</label>
+        <textarea id="mensage"></textarea>
+
+        <button type="submit">Enviar</button>
+
+    </form>     
 
 
     <footer class="main-footer">
@@ -220,5 +234,7 @@
 
 
     </footer>
+
+    <script src="js/components/main-carrosel.js"></script>
 </body>
 </html>
