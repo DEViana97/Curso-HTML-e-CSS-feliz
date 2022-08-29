@@ -1,5 +1,7 @@
 form {
     background-color: #3A4042;
+    overflow: hidden;
+    
 }
 
 .main-label {
